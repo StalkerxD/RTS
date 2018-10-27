@@ -13,6 +13,7 @@ public class CoordinateHUD : MonoBehaviour {
     {
         // Set up the reference.
         text = GetComponent<Text>();
+        var name = text.name;
         // Reset the score.
     }
     void Update()
